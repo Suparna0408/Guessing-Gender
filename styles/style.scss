@@ -1,0 +1,43 @@
+$color1: white;
+$color2: green;
+$color3: orange;
+$spacers: 6rem;
+
+.container, .userdata{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    // border: 3px solid $color2;
+}
+.userdata{
+    width: 98vw;
+}
+.container{
+    width: 98vw;
+    flex-direction: column;
+}
+body{
+    background: linear-gradient($color3, $color1, $color2);
+    background-repeat: no-repeat;
+    height: $spacers*5;
+}
+.text{
+    width: $spacers*5;
+    height: $spacers*0.5;
+    text-align: center;
+    font-size: $spacers*0.25;
+    letter-spacing: 5px;
+    margin: 1.5rem 0;
+}
+.mt-6{
+    margin-top: $spacers*3;
+}
+.btn{
+    width: $spacers;
+    font-size: $spacers*0.25;
+    height: $spacers*0.5;
+}
+.showgender{
+    background-color: rgba($color: rgb(48, 46, 46), $alpha: 0.5);
+    // height: $spacers*0.5;
+}
